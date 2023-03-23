@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1faee;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+h1 {
+  text-align: center;
+}
+header {
+  width: 97%;
+  background-color: #1d3557;
+  height: 70px;
+  padding: 20px;
+  display: block;
+}
+.head {
+  right: 0;
+  color: #f1faee;
+  padding-right: 30px;
+  text-align-last: right;
+  float: right;
+}
+#log {
+  color: #a8dadc;
+}
+.misc {
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#input_search {
+  border-radius: 10px;
+  height: 18px;
+  padding: 5px;
+}
+#input_butt {
+  border: none;
+  background-color: #1d3557;
+  color: #f1faee;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100px;
+}
+#input_butt:hover {
+  font-weight: 700;
+}
+table {
+  border: 2px solid grey;
+  border-collapse: collapse;
+  width: 95%;
+  border-radius: 50%;
+}
+th {
+  background-color: #1d3557;
+  color: #f1faee;
+  font-weight: 100;
+}
+th,
+td {
+  height: 20px;
+  padding: 2px;
+  text-align: center;
+  border-bottom: 2px solid grey;
+}
+tr:nth-child(even) {
+  background-color: #9fe2bf;
+}
+.insert,
+table button {
+  padding: 3px 20px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  background-color: #1d3557;
+}
+.insert a,
+table button a {
+  font-weight: 200;
+  color: #f1faee;
+}
+td {
+  border: 1px solid white;
+}
+.table_cont {
+  display: flex;
+  justify-content: center;
+}
+#date {
+  color: #f1faee;
+  font-size: 10px;
+}
